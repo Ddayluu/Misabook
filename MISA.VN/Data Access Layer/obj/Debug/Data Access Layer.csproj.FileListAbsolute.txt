@@ -1,0 +1,9 @@
+C:\Users\ASUS\Desktop\MISA.VN\Data Access Layer\bin\Debug\Data Access Layer.dll
+C:\Users\ASUS\Desktop\MISA.VN\Data Access Layer\bin\Debug\Data Access Layer.pdb
+C:\Users\ASUS\Desktop\MISA.VN\Data Access Layer\bin\Debug\Entities.dll
+C:\Users\ASUS\Desktop\MISA.VN\Data Access Layer\bin\Debug\Entities.pdb
+C:\Users\ASUS\Desktop\MISA.VN\Data Access Layer\obj\Debug\Data Access Layer.csprojAssemblyReference.cache
+C:\Users\ASUS\Desktop\MISA.VN\Data Access Layer\obj\Debug\Data Access Layer.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\MISA.VN\Data Access Layer\obj\Debug\Data Access Layer.csproj.CopyComplete
+C:\Users\ASUS\Desktop\MISA.VN\Data Access Layer\obj\Debug\Data Access Layer.dll
+C:\Users\ASUS\Desktop\MISA.VN\Data Access Layer\obj\Debug\Data Access Layer.pdb
