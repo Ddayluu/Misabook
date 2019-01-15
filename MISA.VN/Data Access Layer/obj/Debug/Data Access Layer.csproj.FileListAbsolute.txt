@@ -7,3 +7,12 @@ C:\Users\ASUS\Desktop\MISA.VN\Data Access Layer\obj\Debug\Data Access Layer.cspr
 C:\Users\ASUS\Desktop\MISA.VN\Data Access Layer\obj\Debug\Data Access Layer.csproj.CopyComplete
 C:\Users\ASUS\Desktop\MISA.VN\Data Access Layer\obj\Debug\Data Access Layer.dll
 C:\Users\ASUS\Desktop\MISA.VN\Data Access Layer\obj\Debug\Data Access Layer.pdb
+C:\Users\luudat\Desktop\misa-vn\MISA.VN\Data Access Layer\bin\Debug\Data Access Layer.dll
+C:\Users\luudat\Desktop\misa-vn\MISA.VN\Data Access Layer\bin\Debug\Data Access Layer.pdb
+C:\Users\luudat\Desktop\misa-vn\MISA.VN\Data Access Layer\bin\Debug\Entities.dll
+C:\Users\luudat\Desktop\misa-vn\MISA.VN\Data Access Layer\bin\Debug\Entities.pdb
+C:\Users\luudat\Desktop\misa-vn\MISA.VN\Data Access Layer\obj\Debug\Data Access Layer.csprojAssemblyReference.cache
+C:\Users\luudat\Desktop\misa-vn\MISA.VN\Data Access Layer\obj\Debug\Data Access Layer.csproj.CoreCompileInputs.cache
+C:\Users\luudat\Desktop\misa-vn\MISA.VN\Data Access Layer\obj\Debug\Data Access Layer.csproj.CopyComplete
+C:\Users\luudat\Desktop\misa-vn\MISA.VN\Data Access Layer\obj\Debug\Data Access Layer.dll
+C:\Users\luudat\Desktop\misa-vn\MISA.VN\Data Access Layer\obj\Debug\Data Access Layer.pdb

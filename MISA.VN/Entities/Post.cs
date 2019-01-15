@@ -21,6 +21,10 @@ namespace Entities
 
         public int LikeCount { get; set; }
 
+        public string CommentContent { get; set; }
+
+        public Guid UserIDComment { get; set; }
+
         public DateTime CreatedDate { get; set; }
     }
 }

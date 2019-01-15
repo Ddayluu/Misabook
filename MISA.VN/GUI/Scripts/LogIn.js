@@ -28,6 +28,7 @@ let LogInJS = Object.create ({
             success: function (response) {
                 if (response) {
                     alert("Connected");
+                    location.href = "/View/NewsFeed.html";
                 }
                 else {
                     alert("Wrong username or password !!");
