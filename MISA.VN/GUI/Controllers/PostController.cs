@@ -1,27 +1,28 @@
-﻿using Business_Logic_Layer;
-using Entities;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Net;
 using System.Net.Http;
 using System.Web.Http;
+using Business_Logic_Layer;
+using Entities;
 
 namespace GUI.Controllers
 {
     public class PostController : ApiController
     {
-        public UserBLL user;
+        PostBLL _postBLL;
 
         /// <summary>
-        /// get the list - api
+        /// Show user posts on the browser
         /// </summary>
         /// <returns></returns>
         [HttpGet]
-        public List<Post> LoadPostList()
+        public List<Post> GetPostList()
         {
-            user = new UserBLL(); 
-            return user.getPostList();
+            _postBLL = new PostBLL();
+            List<Post> userPosts = _postBLL.GetPostList();
+            return userPosts;
         }
     }
 }

@@ -1,5 +1,4 @@
-﻿using Entities;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -23,15 +22,6 @@ namespace Data_Access_Layer
         public bool CheckUserLogIn(string userName, string passWord)
         {
             return databaseAccess.CheckUserInfo(userName, passWord);
-        }
-
-        /// <summary>
-        /// Get Post List from database
-        /// </summary>
-        /// <returns></returns>
-        public List<Post> getPostList()
-        {
-            return databaseAccess.getPostList();
         }
     }
 }

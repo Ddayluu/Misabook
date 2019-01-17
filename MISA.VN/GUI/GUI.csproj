@@ -86,6 +86,7 @@
     <Content Include="Contents\Icon\AMIS-Mobile.png" />
     <Content Include="Contents\Icon\AMIS-SME.png" />
     <Content Include="Contents\Icon\asset_app.png" />
+    <Content Include="Contents\Icon\brand.png" />
     <Content Include="Contents\Icon\comment-icon.png" />
     <Content Include="Contents\Icon\contact_app %281%29.png" />
     <Content Include="Contents\Icon\contact_app.png" />
@@ -120,6 +121,7 @@
     <Content Include="Contents\Icon\TimKiemKhachHang_03.png" />
     <Content Include="Contents\Icon\trophy-icon.png" />
     <Content Include="Contents\Icon\video_app.png" />
+    <Content Include="Contents\Icon\website_app.png" />
     <Content Include="Contents\Image\EmployeeImage.png" />
     <Content Include="Contents\Image\EmployeeImage_2.png" />
     <Content Include="Contents\Image\EmployeeImage_3.png" />

@@ -27,8 +27,7 @@ let LogInJS = Object.create ({
             url: `/api/User?userName=${userName}&passWord=${passWord}`,
             success: function (response) {
                 if (response) {
-                    alert("Connected");
-                    location.href = "/View/NewsFeed.html";
+                    window.location.href = "/View/NewsFeed.html";
                 }
                 else {
                     alert("Wrong username or password !!");

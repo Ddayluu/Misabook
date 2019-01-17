@@ -17,13 +17,13 @@ namespace Entities
 
         public string PostContent { get; set; }
 
+        public string FullName { get; set; }
+
         public string UserName { get; set; }
 
+        public string ProfilePicture { get; set; }
+
         public int LikeCount { get; set; }
-
-        public string CommentContent { get; set; }
-
-        public Guid UserIDComment { get; set; }
 
         public DateTime CreatedDate { get; set; }
     }
