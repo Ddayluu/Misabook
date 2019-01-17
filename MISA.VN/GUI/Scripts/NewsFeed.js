@@ -94,22 +94,13 @@ let NewsFeedJS = Object.create({
         })
     },
     LikeClick: function () {    // To change Like button when click on
-        let LikeButton = $('.LikeButton');
-         
-        if (LikeButton.css('background-image') === 'url("../Contents/Icon/like-comment-icon.png")') {
-            alert(LikeButton.css('background-image'));
-            LikeButton.css('background-image', "url('../Contents/Icon/like-icon.png')");
-            alert("success")
+        if ($(this).css('background-image') == 'url("http://localhost:48711/Contents/Icon/like-comment-icon.png")') {
+            $(this).css('background-image', "url('../Contents/Icon/like-icon.png')");
         }
-
         else {
-            alert(LikeButton.css('background-image'));
-            LikeButton.css('background-image', "url('../Contents/Icon/like-comment-icon.png')");
+            $(this).css('background-image', "url('../Contents/Icon/like-comment-icon.png')");
         }
-           
-            
     }
-    
 })
 
 
