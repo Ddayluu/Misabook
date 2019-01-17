@@ -12,8 +12,8 @@ namespace Data_Access_Layer
 {
     public class DatabaseAccess
     {
-        string _connectionString = @"Data Source=NHATQUANG;Initial Catalog=MISA.DemoAMIS;Integrated Security=True";
-        //string _connectionString = @"Data Source=LUTA19F;Initial Catalog=MisaBookTest;Integrated Security=True";
+        //string _connectionString = @"Data Source=NHATQUANG;Initial Catalog=MISA.DemoAMIS;Integrated Security=True";
+        string _connectionString = @"Data Source=LUTA19F;Initial Catalog=MisaBookTest;Integrated Security=True";
         SqlConnection _sqlConnection;
         SqlCommand _sqlCommand;
         /// <summary>
@@ -78,10 +78,59 @@ namespace Data_Access_Layer
                         property.SetValue(post, sqlDataReader[fieldName], null);
                     }
                 }
+                //Get comment list from a post
+                this.GetCommentList(post);
                 // Thêm đối tượng vào List:
                 posts.Add(post);
             }
             return posts;
+        }
+
+        /// <summary>
+        /// Add all the comment list from database to a post
+        /// </summary>
+        /// <param name="post"></param>
+        public void GetCommentList(Post post)
+        {
+            post.CommentList = new List<Comment>();
+
+            //For safety - create new sql connection...
+            SqlConnection _sqlConnection = new SqlConnection(_connectionString);
+            if (_sqlConnection.State == ConnectionState.Closed)
+            {
+                _sqlConnection.Open();
+            }
+
+            //...and sql command 
+            SqlCommand sqlCommand = _sqlConnection.CreateCommand();
+
+            sqlCommand.CommandType = CommandType.StoredProcedure;
+
+            sqlCommand.CommandText = "[dbo].[Proc_GetComment]";
+
+            sqlCommand.Parameters.AddWithValue("@PostSearch", post.PostID);
+
+            SqlDataReader sqlDataReader = sqlCommand.ExecuteReader();
+
+            while (sqlDataReader.Read())
+            {
+                var comment = new Comment();
+
+                for (int i = 0; i < sqlDataReader.FieldCount; i++)
+                {
+                    // Tên cột
+                    string fieldName = sqlDataReader.GetName(i);
+
+                    PropertyInfo property = comment.GetType().GetProperty(fieldName);
+                    // Nếu tên cột trùng với tên propery thì gán giá trị tương ứng:
+                    if (property != null && sqlDataReader[fieldName] != DBNull.Value)
+                    {
+                        property.SetValue(comment, sqlDataReader[fieldName], null);
+                    }
+                }
+                // Thêm đối tượng vào List:
+                post.CommentList.Add(comment);
+            }
         }
     }
 }

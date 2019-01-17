@@ -13,8 +13,6 @@ namespace Entities
 
         public Guid UserID { get; set; }
 
-        public Guid CommentID { get; set; }
-
         public string PostContent { get; set; }
 
         public string FullName { get; set; }
@@ -26,5 +24,7 @@ namespace Entities
         public int LikeCount { get; set; }
 
         public DateTime CreatedDate { get; set; }
+
+        public List<Comment> CommentList { get; set; }
     }
 }

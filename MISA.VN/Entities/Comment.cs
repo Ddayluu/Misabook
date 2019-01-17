@@ -17,10 +17,12 @@ namespace Entities
 
         public string CommentContent { get; set; }
 
-        public string UserName { get; set; }
+        public string FullName { get; set; }
 
         public int LikeCount { get; set; }
 
         public DateTime CreatedDate { get; set; }
+
+        public string ProfilePicture { get; set; }
     }
 }

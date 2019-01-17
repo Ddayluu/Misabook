@@ -9,3 +9,14 @@ C:\Users\ASUS\Desktop\MISA.VN\Business Logic Layer\obj\Debug\Business Logic Laye
 C:\Users\ASUS\Desktop\MISA.VN\Business Logic Layer\obj\Debug\Business Logic Layer.csproj.CopyComplete
 C:\Users\ASUS\Desktop\MISA.VN\Business Logic Layer\obj\Debug\Business Logic Layer.dll
 C:\Users\ASUS\Desktop\MISA.VN\Business Logic Layer\obj\Debug\Business Logic Layer.pdb
+C:\Users\luudat\Desktop\misa-vn\MISA.VN\Business Logic Layer\bin\Debug\Business Logic Layer.dll
+C:\Users\luudat\Desktop\misa-vn\MISA.VN\Business Logic Layer\bin\Debug\Business Logic Layer.pdb
+C:\Users\luudat\Desktop\misa-vn\MISA.VN\Business Logic Layer\bin\Debug\Data Access Layer.dll
+C:\Users\luudat\Desktop\misa-vn\MISA.VN\Business Logic Layer\bin\Debug\Entities.dll
+C:\Users\luudat\Desktop\misa-vn\MISA.VN\Business Logic Layer\bin\Debug\Data Access Layer.pdb
+C:\Users\luudat\Desktop\misa-vn\MISA.VN\Business Logic Layer\bin\Debug\Entities.pdb
+C:\Users\luudat\Desktop\misa-vn\MISA.VN\Business Logic Layer\obj\Debug\Business Logic Layer.csprojAssemblyReference.cache
+C:\Users\luudat\Desktop\misa-vn\MISA.VN\Business Logic Layer\obj\Debug\Business Logic Layer.csproj.CoreCompileInputs.cache
+C:\Users\luudat\Desktop\misa-vn\MISA.VN\Business Logic Layer\obj\Debug\Business Logic Layer.csproj.CopyComplete
+C:\Users\luudat\Desktop\misa-vn\MISA.VN\Business Logic Layer\obj\Debug\Business Logic Layer.dll
+C:\Users\luudat\Desktop\misa-vn\MISA.VN\Business Logic Layer\obj\Debug\Business Logic Layer.pdb

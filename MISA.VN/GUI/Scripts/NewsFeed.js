@@ -57,27 +57,33 @@ let NewsFeedJS = Object.create({
                             </div>
                         </div>
                         <div class="post-footer">
-                            <div class="comment-list">
-                                <div class="comment-box">
+                            <div class="comment-list">`;
+
+                        item.CommentList.forEach((itemComment) => {
+                            let commenthtml =
+                                `<div class="comment-box">
                                     <div id="Avatar" style="float: left; position:relative;">
-                                        <a href="#"><img class="Avatar-img" src="../Contents/Image/EmployeeImage.png" alt="Avatar" /></a>
+                                        <a href="#"><img class="Avatar-img" src="${itemComment.ProfilePicture}" /></a>
                                     </div>
                                     <div class="comment-content">
-                                        <a href="#" style=" font-size:14px; color: #355dbd; font-weight:bold;">Lê Thị A</a>
-                                        <p>Sao trùng hợp, hôm nay tớ cũng rất là vui !!! Hôm nào chúng mình gặp nhau nhé</p>
+                                        <a href="#" style=" font-size:14px; color: #355dbd; font-weight:bold;">${itemComment.FullName}</a>
+                                        <p>${itemComment.CommentContent}</p>
                                     </div>
                                     <div class="comment-info">
                                         <a href="#" class="comment-like" style="color: #355dbd">Like</a><span style="padding-left: 10px; color: silver;">2h trước</span>
                                     </div>
-                                </div>
+                                </div>`;
 
-                            </div>
+                            itemHtml += commenthtml;
+                        })
+
+                        itemHtml += `</div>
                             <div class="my-comment">
                                 <textarea class="my-comment-content" placeholder="Viết bình luận ..."></textarea>
                             </div>
                         </div>
                         </div>`;
-                            $('.main-content').append(itemHtml);
+                        $('.main-content').append(itemHtml);
                     })
                 }      
             },
