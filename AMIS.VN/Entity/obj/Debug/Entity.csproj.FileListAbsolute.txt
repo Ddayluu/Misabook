@@ -1,0 +1,10 @@
+C:\Users\Khoa\Desktop\WEB.TRAINING\MISA.DemoWebAPI_Final\Entity\bin\Debug\ClassLibrary1.dll
+C:\Users\Khoa\Desktop\WEB.TRAINING\MISA.DemoWebAPI_Final\Entity\bin\Debug\ClassLibrary1.pdb
+C:\Users\Khoa\Desktop\WEB.TRAINING\MISA.DemoWebAPI_Final\Entity\obj\Debug\Entity.csproj.CoreCompileInputs.cache
+C:\Users\Khoa\Desktop\WEB.TRAINING\MISA.DemoWebAPI_Final\Entity\obj\Debug\ClassLibrary1.dll
+C:\Users\Khoa\Desktop\WEB.TRAINING\MISA.DemoWebAPI_Final\Entity\obj\Debug\ClassLibrary1.pdb
+C:\Users\Khoa\Desktop\final-project\AMIS.VN\Entity\bin\Debug\ClassLibrary1.dll
+C:\Users\Khoa\Desktop\final-project\AMIS.VN\Entity\bin\Debug\ClassLibrary1.pdb
+C:\Users\Khoa\Desktop\final-project\AMIS.VN\Entity\obj\Debug\Entity.csproj.CoreCompileInputs.cache
+C:\Users\Khoa\Desktop\final-project\AMIS.VN\Entity\obj\Debug\ClassLibrary1.dll
+C:\Users\Khoa\Desktop\final-project\AMIS.VN\Entity\obj\Debug\ClassLibrary1.pdb
